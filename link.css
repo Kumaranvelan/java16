@@ -1,4 +1,4 @@
-* {
+ body{
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
@@ -10,9 +10,10 @@
     justify-content: center;
 }
 .calculater {
-    width: 60vh;
+    width: 50vh;
     border-radius: 10px;
-    background: #0c833e;
+    background-color: aliceblue;
+    margin: 100px 0px 0px 500px;
 }
 input {
     border: none;
@@ -20,11 +21,11 @@ input {
     width: 60px;
     height: 60px;
     box-shadow: -8px -8px -15px rgba(206, 97, 97, 0.1) 5px 5px 15px rgba(73, 19, 19, 0.5);
-    background: transparent;
+    background: opacity;
     font-size: 20px;
     cursor: pointer;
     margin: 10px;
-    color: #fff;
+    color:black;
 }
 .equal {
     width: 145px;
@@ -33,12 +34,8 @@ input {
     color: rgb(177, 40, 6);
 }
 .colorr {
-    background-color: wheat;
-    color: black;
+    background-color: black;
+    color: white;
+    width: 95%;
     border-radius: 20px;
-    grid-column: span 4;
-}
-form {
-    display: grid;
-    grid-template-rows: repeat(4, 60px);
 }
