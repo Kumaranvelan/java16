@@ -12,7 +12,7 @@
 .calculater {
     width: 50vh;
     border-radius: 10px;
-    background-color: aliceblue;
+    background-color: rgb(62, 104, 139);
     margin: 100px 0px 0px 500px;
 }
 input {
@@ -26,6 +26,7 @@ input {
     cursor: pointer;
     margin: 10px;
     color:black;
+    border-radius: 20px 0px;
 }
 .equal {
     width: 145px;
